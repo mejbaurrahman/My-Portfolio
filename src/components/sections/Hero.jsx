@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-target-blank */
-import { FaGithub, FaHackerrank, FaLinkedin } from "react-icons/fa";
+import { FaDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 import user_info from "../../data/user_info.js";
 import { IoIosArrowForward } from "react-icons/io";
 import { SiLeetcode } from "react-icons/si";
@@ -52,13 +52,13 @@ function Hero() {
                 <IoIosArrowForward className="self-center" />
               </a>
             </div>
-            <div className="flex gap-2 mt-6">
+            <div className="flex  gap-2 mt-6">
               <a
                 href={user_info.socials.github}
                 target="_blank"
                 className="px-6 py-3 border border-black hover:bg-red-800 hover:text-white hover:border-red-800 dark:border-white font-medium transition-all duration-300"
               >
-                <FaGithub className="self-center text-2xl" />
+                <FaGithub className=" text-2xl" />
               </a>
               <a
                 href={user_info.socials.linkedin}
@@ -74,12 +74,16 @@ function Hero() {
               >
                 <SiLeetcode className="self-center text-2xl" />
               </a>
+
               <a
-                href={user_info.socials.hackerrank}
-                target="_blank"
+                href="../../../public/Mejba-resume-full.pdf"
+                download="Mejba_Resume.pdf"
                 className="px-6 py-3 border border-black hover:bg-red-800 hover:text-white hover:border-red-800 dark:border-white font-medium transition-all duration-300"
               >
-                <FaHackerrank className="self-center text-2xl" />
+                <div className="flex gap-2">
+                  <h1>Resume</h1>
+                  <FaDownload className="self-center text-xl" />
+                </div>
               </a>
             </div>
           </div>
