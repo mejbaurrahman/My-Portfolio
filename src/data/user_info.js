@@ -13,64 +13,38 @@ const info = {
   socials: {
     github: "https://github.com/mejbaurrahman",
     linkedin: "https://www.linkedin.com/in/md-mejbaur-rahman/",
+    leetcode: "https://leetcode.com/u/mejbacsedu/",
+    hackerrank: "https://www.hackerrank.com/profile/mejbacsedu",
     facebook: "https://www.facebook.com/mejbamagura",
   },
 
   // ============ PROJECTS ============
   projects: [
     {
-      title: "Pseudocode to C",
+      title: "Used Mobile Shop",
       description:
-        "Pseudocode to C is a web app that translates pseudocode into C code, aiding in the transition from high-level logic to a lower-level language.",
-      technologies: "React, Tailwind, Flask, SpaCy",
-      github: "https://github.com/dsbalico/pseudocode-to-c",
-      link: "https://pseudocode-to-c.netlify.app/",
+        "Used mobile phone selling website. Here buyer, seller, and admin are different roles of users. Used firebase auth with JWT token. Used card payment using stripe",
+      technologies: "React, Tailwind, Express,Mongodb, Firebase, JWT, Stripe",
+      github: "https://github.com/mejbaurrahman/mobile-shop-client",
+      link: "https://mobile-shop-52fab.web.app/",
     },
 
     {
-      title: "YouShare",
+      title: "Book Nest",
       description:
-        "Developed to learn full-stack web development using Nuxt3, Express, and PostgreSQL in fulfillment of my internship requirements.",
-      technologies: "Nuxt, Tailwind, Express, PostgreSQL",
-      github: "https://github.com/dsbalico/YouShare",
-      link: "https://github.com/dsbalico/YouShare",
+        "Book Nest is a full-featured e-commerce web application for book enthusiasts, allowing users to browse products, explore categories, view details, and make purchases.",
+      technologies: "React, Tailwind, Express, Firebase",
+      github: "https://github.com/mejbaurrahman/Book-Nest-Client",
+      link: "https://stirring-nasturtium-5fd15e.netlify.app/",
     },
 
     {
-      title: "Draw & Classify",
+      title: "Dental Care",
       description:
-        "Draw & Classify is a web application designed to test my machine learning model, which classifies drawn letters, digits, or shapes.",
-      technologies: "React, Tailwind, Tensorflow",
-      github: "https://github.com/dsbalico/letter-digit-shape-classification",
-      link: "https://letterdigitshape-classification.netlify.app/",
-    },
-
-    {
-      title: "Chatroom",
-      description:
-        "Chatroom is a simple online chatting web application where you can create chat rooms and have a fun conversation with a group of people.",
-      technologies: "React, Tailwind, Firebase",
-      github: "https://github.com/dsbalico/chatroom",
-      link: "https://thechatroom.netlify.app/",
-    },
-
-    {
-      title: "Sudoku Solver",
-      description:
-        "Sudoku Solver is a web application that can generate or solve sudoku problems using simulated annealing, an optimization algorithm.",
-      technologies: "React, Tailwind, TypeScript",
-      github:
-        "https://github.com/dsbalico/sudoku-solver-using-simulated-annealing",
-      link: "https://sudoku-solver-sa.netlify.app/",
-    },
-
-    {
-      title: "Probability Pick",
-      description:
-        "Probability Pick is a PCSO Lotto Number Generator that calculates the likelihood of selecting winning numbers based on historical draw data.",
-      technologies: "React, Tailwind, Flask",
-      github: "https://github.com/dsbalico/pcso-lotto-number-generator",
-      link: "https://probability-pick.netlify.app/",
+        "Services review related website where users are add their review to the service. Users can add, modify and delete their reviews.",
+      technologies: "React, Bootstrap, JWT, Express, Firebase",
+      github: "https://github.com/mejbaurrahman/dental-care-review-client",
+      link: "https://dental-care-c6d22.web.app/",
     },
   ],
 
@@ -113,60 +87,16 @@ const info = {
   // ============ CERTIFICATES ============
   certificates: [
     {
-      title: "Foundations of Cybersecurity Certificate",
-      description: "Provided by Coursera & Authorized by IBM",
-      icon: "ibm",
-      link: "https://www.coursera.org/account/accomplishments/records/SF2PPLNVTH6R",
+      title: "Complete Web Development Course with Excellence",
+      description: "Provided by Programming Hero",
+      icon: "PHero",
+      link: "https://drive.google.com/file/d/1m-3r9W7gw9Hw7T_K4GS574RZ0P8Vu_MK/view?usp=sharing",
     },
     {
-      title: "Git and GitHub Essentials",
-      description: "Provided by Coursera & Authorized by IBM",
-      icon: "ibm",
-      link: "https://www.credly.com/badges/fa00026a-4db5-4269-ab4f-340f5382ac03",
-    },
-    {
-      title: "Crash Course on Python Certificate",
-      description: "Provided by Coursera & Authorized by Google",
-      icon: "google",
-      link: "https://www.coursera.org/account/accomplishments/verify/S9773NBEK4S6",
-    },
-    {
-      title: "Technical Support Fundamentals Certificate",
-      description: "Provided by Coursera & Authorized by Google",
-      icon: "google",
-      link: "https://www.coursera.org/account/accomplishments/verify/P9EH5HNYRESZ",
-    },
-    {
-      title:
-        "Introduction to Web Development with HTML, CSS, JavaScript Certificate",
-      description: "Provided by Coursera & Authorized by IBM",
-      icon: "ibm",
-      link: "https://www.credly.com/badges/7b88eb00-e1f9-4ae6-be2a-3b2ae8983c44",
-    },
-    {
-      title: "Introduction to Cloud Computing Certificate",
-      description: "Provided by Coursera & Authorized by IBM",
-      icon: "ibm",
-      link: "https://www.credly.com/badges/514b694a-8dc4-418d-9af4-61908dc29ca8",
-    },
-    {
-      title:
-        "Django Application Development with SQL and Databases Certificate",
-      description: "Provided by Coursera & Authorized by IBM",
-      icon: "ibm",
-      link: "https://www.credly.com/badges/a36dd8a3-1050-4c4e-bcef-97b39babf55e",
-    },
-    {
-      title: "Front-End Developer (React) Certificate",
-      description: "Provided by HackerRank",
-      icon: "hackerrank",
-      link: "https://www.hackerrank.com/certificates/631ac3acf267",
-    },
-    {
-      title: "Software Engineer Certificate",
-      description: "Provided by HackerRank",
-      icon: "hackerrank",
-      link: "https://www.hackerrank.com/certificates/efdbdd44eb7d",
+      title: "Black Belt Holder Web Developer",
+      description: "Provided by Programming Hero",
+      icon: "PHero",
+      link: "https://drive.google.com/file/d/1LrbbvHSixyhkedRnpNq6fiFl2GBK5u0V/view?usp=sharing",
     },
   ],
 
